@@ -16,3 +16,9 @@ And of course, less "insider knowledge" for the SC.
 This also contains some output using the Apache POI library, fairly useful for examining results from the SA.
 For more optimised statistical analysis the Output.java file should be modified for outputting CSV files,
 for use in R etc. 
+
+For anyone who gets the "problem" reference:
+
+<p align="center">
+<img src="https://vignette.wikia.nocookie.net/memoryalpha/images/a/a5/Data_pretends_to_leave_bridge.jpg/revision/latest/scale-to-width-down/180?cb=20170216145233&path-prefix=en">
+</p>
