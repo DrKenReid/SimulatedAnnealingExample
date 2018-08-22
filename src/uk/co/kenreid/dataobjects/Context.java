@@ -1,8 +1,5 @@
 /*
- * Copyright: Ken Reid
  * E: Ken@kenreid.co.uk
- *
- *
  *
  */
 package uk.co.kenreid.dataobjects;

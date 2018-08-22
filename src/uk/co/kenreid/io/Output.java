@@ -1,5 +1,4 @@
 /*
- * Copyright: Ken Reid
  * E: Ken@kenreid.co.uk
  *
  */
