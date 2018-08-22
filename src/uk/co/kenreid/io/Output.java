@@ -119,10 +119,7 @@ public class Output {
 			final Row row1 = worksheet.createRow(0);
 
 			final Cell cellA1 = row1.createCell(0);
-			cellA1.setCellValue("Fitness");
-
-			final Cell cellA2 = row1.createCell(1);
-			cellA2.setCellValue("Solution");
+			cellA1.setCellValue("Solutions");
 
 			int rowNumber = 1;
 
