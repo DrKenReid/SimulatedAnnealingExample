@@ -271,10 +271,8 @@ public class Output {
 			final Workbook workbook = new XSSFWorkbook();
 			final Sheet worksheet = workbook.createSheet("Results");
 
-			// Create ROW-1
 			final Row row1 = worksheet.createRow(0);
 
-			// Create COL-A from ROW-1 and set data
 			final Cell cellA1 = row1.createCell(0);
 			cellA1.setCellValue("Fitness");
 
@@ -288,10 +286,8 @@ public class Output {
 			boolean flag = false;
 			for (double d : fitnesses) {
 				counter++;
-				// Create ROW-1
 				final Row currRow = worksheet.createRow(rowNumber);
 
-				// Create COL-A from ROW-1 and set data
 				final Cell currCell = currRow.createCell(0);
 				if (Double.isNaN(d)) {
 					d = 0;
@@ -308,7 +304,6 @@ public class Output {
 			if (flag) {
 				final Row currRow = worksheet.createRow(rowNumber);
 
-				// Create COL-A from ROW-1 and set data
 				final Cell currCell = currRow.createCell(0);
 
 				currCell.setCellStyle(currStyle);
@@ -317,7 +312,6 @@ public class Output {
 			for (int i = 0; i < 15; i++) {
 				worksheet.autoSizeColumn(i);
 			}
-			// Save the workbook in .xls file
 			workbook.write(outputStream);
 			workbook.close();
 			outputStream.flush();
@@ -343,10 +337,8 @@ public class Output {
 			final Workbook workbook = new XSSFWorkbook();
 			final Sheet worksheet = workbook.createSheet("Results");
 
-			// Create ROW-1
 			final Row row1 = worksheet.createRow(0);
 
-			// Create COL-A from ROW-1 and set data
 			final Cell cellA1 = row1.createCell(0);
 			cellA1.setCellValue("Iteration");
 
